@@ -13,5 +13,12 @@ npm: consola glob gray-matter
 
 npm: consola fs-extra markdown-to-txt semver   lodash
 
-CHANGELOG.md -> changelog\v1.json
-changelog\CHANGELOG.v0.md -> changelog\v0.json
+CHANGELOG.md -> changelog\v1.json  
+changelog\CHANGELOG.v0.md -> changelog\v0.json  
+
+## workflow:readme
+
+npm: consola markdown-table url-join
+
+
+ 
