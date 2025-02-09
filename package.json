@@ -6,7 +6,8 @@
     "start": "next start",
     "workflow:mdx": "tsx ./scripts/mdxWorkflow/index.ts",
     "workflow:changelog": "tsx ./scripts/changelogWorkflow/index.ts",
-    "workflow:readme": "tsx ./scripts/readmeWorkflow/index.ts"
+    "workflow:readme": "tsx ./scripts/readmeWorkflow/index.ts",
+    "workflow:countCharters": "tsx scripts/countEnWord.ts"
   },
   "dependencies": {
     "consola": "^3.4.0",
