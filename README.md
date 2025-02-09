@@ -20,5 +20,10 @@ changelog\CHANGELOG.v0.md -> changelog\v0.json
 
 npm: consola markdown-table url-join
 
+## workflow:docs
+
+npm: consola p-map url-join remark-gfm remark-parse unified unist-util-visit
+
+contributing
 
  
