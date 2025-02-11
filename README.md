@@ -26,4 +26,11 @@ npm: consola p-map url-join remark-gfm remark-parse unified unist-util-visit
 
 contributing
 
- 
+## workflow:i18n
+
+npm: consola just-diff lodash @lobehub/i18n-cli  
+
+.i18nrc.js  
+locales  
+src\locales\default  
+src\config\aiModels  

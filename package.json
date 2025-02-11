@@ -8,13 +8,15 @@
     "workflow:changelog": "tsx ./scripts/changelogWorkflow/index.ts",
     "workflow:docs": "tsx ./scripts/docsWorkflow/index.ts",
     "workflow:readme": "tsx ./scripts/readmeWorkflow/index.ts",
-    "workflow:countCharters": "tsx scripts/countEnWord.ts"
+    "workflow:countCharters": "tsx scripts/countEnWord.ts",
+    "workflow:i18n": "tsx ./scripts/i18nWorkflow/index.ts"
   },
   "dependencies": {
     "consola": "^3.4.0",
     "fs-extra": "^11.3.0",
     "glob": "^11.0.1",
     "gray-matter": "^4.0.3",
+    "just-diff": "^6.0.2",
     "lodash": "^4.17.21",
     "markdown-table": "^3.0.4",
     "markdown-to-txt": "^2.0.1",
@@ -33,5 +35,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@lobehub/i18n-cli": "^1.20.3"
   }
 }
